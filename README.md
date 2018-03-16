@@ -6,7 +6,7 @@ a signifacant install base and the cost to convert a complete
 X10 install to modern IoT devices is cost prohibitive. This libary
 allows X10 device to respond to mqtt messages and blend seemlessly 
 into a modern IoT network.  A psudeo state of the device is stored
-so the state can be queried.
+so the device state can be queried.
 
 A key part of the config.json file maps mqtt topics to devices. This 
 tell mqtt-x10-bridge which topics to subscribe to and when a message
@@ -27,7 +27,7 @@ is recieved what x10 device to turn on/off.
 
 For each device an entry into topics to added.  The status 
 entry is the queue to publish current status to.  The current
-status is stored so it can be queries like modern IoT devices.
+status is stored so it can be queried like modern IoT devices.
 
 The bridge depends on the node-x10-comm module to send the commands
 to the serial port and the serialport module to interface with the
