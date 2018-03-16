@@ -1,4 +1,4 @@
-# mqtt-x10-bridge - mqtt to x10 bridge
+# mqtt-x10-bridge
 
 This project bridges the gap between X10 based devices and
 newer SmartHome IoT devices that rely on mqtt. X10 has 
