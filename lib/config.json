@@ -1,7 +1,21 @@
 {
-  "serverPort": 3000,
-  "serialPort": "/dev/ttyUSB0",
-  "MaxRecentActivity": 100,
-  "topic": "house/x10",
-  "mqttServerUrl": "tcp://X.X.X.X:1883"
+   "serialPort":"/dev/ttyS0",
+   "mqttServerUrl":"tcp://127.0.0.1:1883",
+   "topics":{
+      "house/livingroom/ceilling/command":{
+         "house":"G",
+         "module":"1",
+         "status":"house/livingroom/ceilling/satus"
+      },
+      "house/livingroom/lamp/command":{
+         "house":"G",
+         "module":"2",
+         "status":"house/livingroom/lamp/status"
+      },
+      "house/outside/landscaping/command":{
+         "house":"G",
+         "module":"3",
+         "status":"house/outside/landscaping/satus"
+      }
+   }
 }

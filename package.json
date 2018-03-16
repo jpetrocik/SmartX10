@@ -1,5 +1,5 @@
 {
-  "name": "micro-app-mqtt-x10-bridge",
+  "name": "mqtt-x10-bridge",
   "version": "1.0.0",
   "description": "mqtt to x10 bridge",
   "main": "lib/server.js",
@@ -8,36 +8,38 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "micro-app-framework": "^0.1.1",
-    "socket.io": "~1.3.7",
     "mqtt": "~1.6.3",
     "node-x10-comm": "~1.0.7",
     "serialport": "~2.0.6"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhdawson/micro-app-mqtt-x10-bridge.git"
+    "url": "git+https://github.com/jpetrocik/mqtt-x10-bridge.git"
   },
   "keywords": [
     "iot",
     "mqtt",
-    "dashboard",
-    "micro-app",
     "sensor",
-    "x10"
+    "x10",
+    "home automation",
+    "smart home"
   ],
   "author": {
-    "name": "Michael Dawson"
+    "name": "John Petrocik"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mhdawson/micro-app-mqtt-x10-bridge/issues"
+    "url": "https://github.com/jpetrocik/mqtt-x10-bridge/issues"
   },
-  "homepage": "https://github.com/mhdawson/micro-app-mqtt-x10-bridge#readme",
+  "homepage": "https://github.com/jpetrocik/mqtt-x10-bridge#readme",
   "contributors": [
     {
       "name": "Michael Dawson",
       "email": "mdawson@devrus.com"
+    },
+    {
+      "name": "John Petrocik",
+      "email": "john@@petrocik.net"
     }
   ]
 }
