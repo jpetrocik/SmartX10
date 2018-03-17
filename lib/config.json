@@ -2,20 +2,15 @@
    "serialPort":"/dev/ttyS0",
    "mqttServerUrl":"tcp://127.0.0.1:1883",
    "topics":{
-      "house/livingroom/ceilling/command":{
+      "house/livingroom/ceiling/command":{
          "house":"G",
          "module":"1",
-         "status":"house/livingroom/ceilling/satus"
-      },
-      "house/livingroom/lamp/command":{
-         "house":"G",
-         "module":"2",
-         "status":"house/livingroom/lamp/status"
+         "status":"house/livingroom/ceiling/status"
       },
       "house/outside/landscaping/command":{
          "house":"G",
          "module":"3",
-         "status":"house/outside/landscaping/satus"
+         "status":"house/outside/landscaping/status"
       }
    }
 }
