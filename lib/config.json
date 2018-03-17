@@ -9,7 +9,7 @@
       },
       "house/outside/landscaping/command":{
          "house":"G",
-         "module":"3",
+         "module":"2",
          "status":"house/outside/landscaping/status"
       }
    }
